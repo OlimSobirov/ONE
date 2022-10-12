@@ -1,0 +1,54 @@
+.logo{
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    left: 50px;
+}
+
+
+
+.header{
+    position: fixed;
+    position: absolute;
+width: 830px;
+height: 96px;
+right: 0;
+top: 40px;
+
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(40.7742px);
+ 
+
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 38px;
+        padding-bottom: 38px;
+
+        li a{
+
+            font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+transition: 0.3s;
+
+        }
+        li a:hover{
+            font-size: 18px;
+            color: azure;
+        }
+
+    }
+}
